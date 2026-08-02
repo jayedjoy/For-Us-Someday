@@ -201,35 +201,6 @@
     text-align:center;
   }
 
-  /* placeholder styling, remove automatically once real media is added */
-  .placeholder{
-    width:100%;
-    aspect-ratio:4/3;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-direction:column;
-    gap:8px;
-    background:rgba(247,241,230,0.04);
-    border:1px dashed var(--line);
-    font-family:'Jost', sans-serif;
-    color:var(--cream-dim);
-    text-align:center;
-    padding:20px;
-  }
-
-  .placeholder .ph-title{
-    font-size:13px;
-    letter-spacing:0.1em;
-    text-transform:uppercase;
-  }
-
-  .placeholder .ph-file{
-    font-size:12px;
-    opacity:0.7;
-    font-family:monospace;
-  }
-
   /* Divider */
   .divider{
     width:44px;
@@ -276,16 +247,6 @@
     margin-top:38px;
   }
 
-  .closing-media{
-    width:100%;
-    max-width:420px;
-    margin-top:56px;
-  }
-
-  .closing-media .media-frame{
-    border-radius:2px;
-  }
-
   footer{
     text-align:center;
     padding:60px 28px 90px;
@@ -320,10 +281,10 @@
 
   <!-- MEDIA SLOT 1 : opening photo -->
   <div class="media-slot">
-  <div class="media-frame">
-    <img src="ek5.jpeg" alt="">
+    <div class="media-frame">
+      <img src="ek5.jpeg" alt="">
+    </div>
   </div>
-</div>
 
   <div class="stanza">
 <p>I want a future where we both wake up tired<br>
@@ -343,11 +304,6 @@ it simply feels right.</p>
     and me, just happy to carry it all in<br>
     and watch it slowly become us.</p>
   </div>
-
-  <!-- MEDIA SLOT 2 : video, after home stanza -->
-<div class="media-frame">
-  <video src="ekv1.mp4" controls playsinline></video>
-</div>
 
   <div class="stanza">
 <p>I want to see the world with you,<br>
@@ -370,13 +326,6 @@ and I hope that, by loving you,<br>
 I learn to see the world a little more like you do.</p>
   </div>
 
-  <!-- MEDIA SLOT 3 : photo -->
-  <div class="media-slot">
-  <div class="media-frame">
-    <img src="ek3.jpeg" alt="">
-  </div>
-</div>
-
   <div class="stanza">
 <p>I want your family to always feel like mine,<br>
 your mother, Anna, Arth,<br>
@@ -393,13 +342,6 @@ a home overflowing with happy chaos,<br>
 where even the messiest days remind us<br> 
 that we've built something worth coming home to.<p>
   </div>
-
-  <!-- MEDIA SLOT 4 : photo -->
-<div class="media-slot">
-  <div class="media-frame">
-    <img src="ek4.jpeg" alt="">
-  </div>
-</div>
 
   <div class="stanza">
 <p>I want our kids to be kind like you,<br>
@@ -419,13 +361,6 @@ so I never stop learning<br>
 how to love you a little better.</p>
   </div>
 
-  <!-- MEDIA SLOT 5 : photo -->
-<div class="media-slot">
-  <div class="media-frame">
-    <img src="ek2.jpeg" alt="">
-  </div>
-</div>
-
   <div class="stanza">
 <p>Because love isn't something I found once and kept,<br>
 it's something I choose, again and again.<br>
@@ -438,23 +373,11 @@ I will choose you until loving you is no longer a decision I make,<br>
 but simply the way I exist.</p>
   </div>
 
-  <!-- MEDIA SLOT 6 : video -->
-<div class="media-frame">
-  <video src="ekv2.mp4" controls playsinline></video>
-</div>
-
 </div>
 
 <section id="closing">
   <p class="closing-line">You are my today, my tomorrow,<br>and every place I'll ever call home.</p>
   <div class="closing-sign">my sweetest baccha.</div>
-
-  <div class="closing-media">
-    <div class="media-frame">
-      <!-- Replace the placeholder below with: <img src="media/photo-5.jpg" alt=""> -->
-<img src="ek1.jpeg" alt="">
-  </div>
-</div>
 </section>
 
 <footer>01 · 08 · always</footer>
